@@ -1,4 +1,4 @@
-
+@use '/scss/abstracts/font';
 // breakpoints for media queries
 $mobile-breakpoint: 375px;
 $desktop-breakpoint: 1440px;
@@ -22,5 +22,6 @@ $dark-blue: hsl(224, 30%, 27%);
 
 // body copy
 $font-copy-size: 18px;
+$font-stack: "Hanken Grotesk", helvetica, sans-serif;
 
 
