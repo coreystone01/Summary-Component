@@ -4,14 +4,15 @@
   "description": "![Design preview for the Results summary component coding challenge](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "dev": "parcel /index.html",
-    "build": "parcel build /index.html"
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "partial": "^0.0.7",
+    "@parcel/transformer-sass": "^2.9.3",
+    "parcel": "^2.9.3",
     "sass": "^1.66.1"
   }
 }
