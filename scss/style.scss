@@ -1,2 +1,3 @@
-@use '/scss/abstracts/font';
+// style.scss is just outside of the scss folder (for troubleshooting) so I need to use a ./ to get parcel to pick it up
+@use './scss/abstracts/font';
 @use './scss/abstracts/variables';
