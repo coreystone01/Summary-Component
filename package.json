@@ -8,11 +8,19 @@
     "build": "parcel build index.html"
   },
   "keywords": [],
-  "author": "",
+  "author": "Corey Stone",
   "license": "ISC",
   "devDependencies": {
     "@parcel/transformer-sass": "^2.9.3",
     "parcel": "^2.9.3",
     "sass": "^1.66.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/coreystone01/Summary-Component.git"
+  },
+  "bugs": {
+    "url": "https://github.com/coreystone01/Summary-Component/issues"
+  },
+  "homepage": "https://github.com/coreystone01/Summary-Component#readme"
 }
