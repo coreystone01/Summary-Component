@@ -1,0 +1,8 @@
+@use '/scss/abstracts/font';
+.wrapper    {
+    // mobile layout
+    display: flex;
+    flex-direction: column;
+    font-family: font.$font-stack;
+}
+
