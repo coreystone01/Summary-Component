@@ -1,0 +1,22 @@
+// [name=reaction] {
+//     display: flex;
+//     justify-content: space-around;
+// }
+
+.summary    {
+    // justify-content: center;
+    // text-align: center;
+    // justify-items: center;
+    grid-gap: 4vh;
+    width: 30vw;
+    height: 40vh;
+    border-radius: 50px;
+    padding: 15px 0px 15px 0px;
+}
+
+// I don't want to call each container by name, so get name attribute and any container class child
+[name=summary] > .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
