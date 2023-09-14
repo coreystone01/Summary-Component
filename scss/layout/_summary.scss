@@ -1,4 +1,6 @@
 @use '/scss/abstracts/variables';
+@use '/scss/abstracts/mixins';
+
 
 .summary    {
     grid-gap: 4vh;
@@ -10,6 +12,11 @@
 
     &__header{
         margin: 10px 0 -20px 0;
+        @include mixins.layout('desktop') {
+            flex-direction: row;
+            margin: 10px 40px -20px;
+          }
+
     }
 
     &__container__tagline{
