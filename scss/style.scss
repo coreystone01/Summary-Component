@@ -2,6 +2,7 @@
 @use './scss/abstracts/reset';
 @use './scss/abstracts/font';
 @use './scss/abstracts/variables';
+@use './abstracts/mixins';
 @use '/scss/layout/wrapper';
 @use './components/container';
 @use './layout/results';

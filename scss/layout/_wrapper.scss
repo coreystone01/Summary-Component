@@ -1,8 +1,16 @@
 @use '/scss/abstracts/variables';
+@use '/scss/abstracts/mixins';
+
 .wrapper    {
     flex-direction: column;
     font-family: Hanken Grotesk, helvetica, sans-serif;
     display: flex;
     align-items: center;
     margin-top: 5vh;
+
+    @include mixins.layout('desktop') {
+        flex-direction: row;
+        margin: 5%;
+      }
+
 }
