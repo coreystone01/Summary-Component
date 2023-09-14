@@ -1,0 +1,8 @@
+@use '/scss/abstracts/variables';
+.wrapper    {
+    flex-direction: column;
+    font-family: Hanken Grotesk, helvetica, sans-serif;
+    display: flex;
+    align-items: center;
+    margin-top: 5vh;
+}
