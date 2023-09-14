@@ -1,0 +1,9 @@
+@use '/scss/abstracts/variables';
+
+button {
+    justify-self: center;
+    border-radius: 20px;
+    width: 22vw;
+    color: variables.$white;
+    background: variables.$dark-blue;
+}

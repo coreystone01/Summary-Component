@@ -4,8 +4,13 @@
     grid-gap: 4vh;
     width: 30vw;
     height: 40vh;
-    border-radius: 30px;
+    border-radius: 5px;
     padding: 15px 0px 15px 0px;
+    color: variables.$dark-blue;
+
+    &__header{
+        margin: 10px 0 -20px 0;
+    }
 
     &__container__tagline{
         flex-grow: 1;
@@ -23,18 +28,18 @@
     align-items: center;
     display: flex;
     border-radius: 5px;
-    margin: 0px 50px 0 50px;
+    margin: 0px 30px;
 
     > svg   {
         height: 11px;
         width: 11px;
-        background: variables.$light-red;
         flex-grow: 0;
         margin: 0px 10px;
     }
 }
 
 [name=reaction] {
+    color: variables.$light-red;
     background-color: variables.$light-red-background;
 
    > svg    {
@@ -42,6 +47,7 @@
     }
 }
 [name=memory] {
+    color: variables.$orange-yellow;
     background-color: variables.$orange-yellow-background;
 
     > svg    {
@@ -49,6 +55,7 @@
     }
 }
 [name=verbal] {
+    color: variables.$teal;
     background-color: variables.$teal-background;
 
     > svg    {
@@ -56,6 +63,7 @@
     }
 }
 [name=visual] {
+    color: variables.$cobalt-blue;
     background-color: variables.$cobalt-blue-background;
 
     > svg    {
