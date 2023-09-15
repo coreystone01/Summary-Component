@@ -9,8 +9,13 @@
     margin-top: 5vh;
 
     @include mixins.layout('desktop') {
+        justify-content: center;
+        width: 60vw;
+        height: 52vh;
         flex-direction: row;
         margin: 5%;
+        box-shadow: 5px 6px 5px #b8b9bd;
+        border-radius: 40px;
       }
 
 }

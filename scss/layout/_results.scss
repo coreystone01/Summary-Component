@@ -16,15 +16,15 @@
     justify-items: center;
     grid-gap: 4vh;
     width: 30vw;
-    height: 40vh;
+    height: 50vh;
     border-radius: 50px;
-    padding: 15px 0px 15px 0px;
+    padding: 15px 0px;
     // apply colors
     background-image: linear-gradient(variables.$royal-blue-background, variables.$slate-blue-background);
     color: variables.$white;
     font-size: variables.$font-copy-size;
     font-weight: normal;
-
+    
     
     &__header{
         font-size: variables.$font-copy-size;
