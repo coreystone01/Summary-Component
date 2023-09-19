@@ -43,14 +43,14 @@
     align-items: center;
     flex-direction: column;
     
-        > span {
-            font-size: 36px;
-            font-weight: 700;
+        // > span {
+        //     font-size: 36px;
+        //     font-weight: 700;
 
-            @include mixins.layout('desktop') {
-                font-size: 8vh;
-              }
-        };
+        //     @include mixins.layout('desktop') {
+        //         font-size: 8vh;
+        //       }
+        // };
     }
 
     &__tagline{

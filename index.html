@@ -15,13 +15,14 @@
       <section class="container results">
         <h2 class="results__header">Your Result</h2>
         <!-- I'm not going to give the span a name or class, I'll use CSS to select it directly -->
-        <p class="results__score_display"><span>76</span> of 100</p>
+        <p class="results__score_display"><span id="results_score">76</span> of 100</p>
         <p class="results__tagline">Great</p>
-        <p class="results__content">You scored higher than 65% of the people who have taken these tests.</p>
+        <p class="results__content">You scored higher than <span id="results_percentage">65%</span>of the people who have taken these tests.</p>
       </section>
     <!-- begin summary box -->
     <section class="container summary" name="summary">
       <h2 class="summary__header">Summary</h2>
+      <!-- begin summary scores -->
       <div class="container" name="reaction">
         <svg src="/assets/images/icon-reaction.svg"></svg>
         <p class="summary__container__tagline">
