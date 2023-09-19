@@ -1,4 +1,4 @@
-@use '/scss/abstracts/variables';
+@use './scss/abstracts/variables';
 
 // just a simple mixin, not going to create one for mobile since we only have two breakpoints;
 @mixin layout($breakpoint){

@@ -1,0 +1,11 @@
+// style.scss is just outside of the scss folder (for troubleshooting) so I need to use a ./ to get parcel to pick it up
+@use './scss/abstracts/reset';
+@use './scss/abstracts/font';
+@use './scss/abstracts/variables';
+@use './scss/abstracts/mixins';
+@use './scss/layout/wrapper';
+@use './scss/components/container';
+@use './scss/layout/results';
+@use './scss/layout/summary';
+@use './scss/components/scores';
+@use './scss/components/button';
