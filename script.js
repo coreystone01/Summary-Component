@@ -7,7 +7,7 @@ reactionScore     : 0,
 memoryScore       : 0,
 verbalScore       : 0,
 visualScore       : 0,    
-submitButtonState       : "unpressed",
+submitButtonState : "unpressed",
 
     toggleButton: function(buttonStatus){
         this.submitButtonStatebuttonState = buttonStatus;
