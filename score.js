@@ -34,4 +34,4 @@ class Score {
     
 }
 
-const summary = new Summary();
+const score = new Score();
