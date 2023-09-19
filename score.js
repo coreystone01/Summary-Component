@@ -1,4 +1,4 @@
-class Summary {
+class Score {
     constructor(
         // params
         percentage,
