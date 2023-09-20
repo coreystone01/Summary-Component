@@ -1,4 +1,4 @@
-class Score {
+ export class Score {
     constructor(
         // params
         percentage,
@@ -34,4 +34,5 @@ class Score {
     
 }
 
-const score = new Score();
+// export default Score
+// const score = new Score();

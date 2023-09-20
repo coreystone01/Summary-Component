@@ -1,4 +1,4 @@
-import Score from "./score";
+import {Score} from "./score.js";
 
 function updateSummaryValues(){
     const getScores = new Score();
@@ -14,7 +14,7 @@ function updateSummaryValues(){
 
         // make a call to our summary__container_content classes and we're going to update their HTML content
         const elementValue = container.querySelector('.summary__container__content')
-        elementValue.textContent = '${scoreValue}';
+        elementValue.textContent = `${scoreValue}`;
     });
 }
 
