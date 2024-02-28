@@ -11,6 +11,7 @@ function updateSummaryValues(){
         const scoreValue = getScores.generateRandomScore();
 
         // update the scoreValue HTML content
+        // Make sure to use back ticks here, you spent a lot of time troubleshooting your JS output because of this.
         container.textContent = `${scoreValue}`;
     });
 }
