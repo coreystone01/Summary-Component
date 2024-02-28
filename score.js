@@ -34,5 +34,5 @@
     
 }
 
-// export default Score
-// const score = new Score();
+export default Score
+const score = new Score();
