@@ -4,24 +4,19 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  <!-- <link rel="stylesheet" href="/scss/style.scss"> -->
   <link href="css/custom.css" rel="stylesheet">>
-  <script src="./score.js" type="module"></script>
-  <script src = "./script.js" type="module"></script>
-  
   <title>Frontend Mentor | Results summary component</title>
-
 </head>
 <body>
   <!-- begin results box -->
-  <div class="wrapper">
-      <section class="container results">
-        <h2 class="results__header">Your Result</h2>
+  <div class="d-flex flex-column justify-content-center">
+      <div class="results container d-flex flex-column align-items-center text-center">
+        <h4 class="results__header my-3">Your Result</h4>
         <!-- I'm not going to give the span a name or class, I'll use CSS to select it directly -->
-        <p class="results__score_display"><span id="results_score">76</span> of 100</p>
+        <p class="results__score_display d-flex flex-column align-items-center justify-content-center w-50 p-5 rounded-circle"><span class="display-1 fw-bold" id="results_score">76</span>of 100</p>
         <p class="results__tagline">Great</p>
         <p class="results__content">You scored higher than <span id="results_percentage">65%</span>of the people who have taken these tests.</p>
-      </section>
+      </div>
     <!-- begin summary box -->
     <section class="container summary" name="summary">
       <h2 class="summary__header">Summary</h2>

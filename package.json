@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/coreystone01/Summary-Component/issues"
   },
-  "homepage": "https://github.com/coreystone01/Summary-Component#readme"
+  "homepage": "https://github.com/coreystone01/Summary-Component#readme",
+  "dependencies": {
+    "bootstrap": "^5.3.7"
+  }
 }
