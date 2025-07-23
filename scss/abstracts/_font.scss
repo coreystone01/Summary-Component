@@ -1,8 +1,8 @@
-@font-face {
-    font-family: Hanken Grotesk;
-    src: url(https://fonts.google.com/specimen/Hanken+Grotesk);
-}
-
-$font-stack: "Hanken Grotesk", helvetica, sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
 
 // $font-stack: "Hanken Grotesk", helvetica, sans-serif;
+
+:root {
+  --bs-body-font-family: 'Hanken Grotesk', sans-serif !important;
+  --bs-body-line-height: 140% !important;
+}
