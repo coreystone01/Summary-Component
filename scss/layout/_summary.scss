@@ -1,5 +1,5 @@
-@use './scss/abstracts/variables';
-@use './scss/abstracts/mixins';
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
 
 
 .summary    {
@@ -43,36 +43,3 @@
         margin: 0px 10px;
     }
 }
-
-// [name=reaction] {
-//     color: variables.$light-red;
-//     background-color: variables.$light-red-background;
-
-//    > svg    {
-//         background: variables.$light-red;
-//     }
-// }
-// [name=memory] {
-//     color: variables.$orange-yellow;
-//     background-color: variables.$orange-yellow-background;
-
-//     > svg    {
-//         background: variables.$orange-yellow;
-//     }
-// }
-// [name=verbal] {
-//     color: variables.$teal;
-//     background-color: variables.$teal-background;
-
-//     > svg    {
-//         background: variables.$teal;
-//     }
-// }
-// [name=visual] {
-//     color: variables.$cobalt-blue;
-//     background-color: variables.$cobalt-blue-background;
-
-//     > svg    {
-//         background: variables.$cobalt-blue;
-//     }
-// }

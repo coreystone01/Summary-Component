@@ -1,14 +1,5 @@
-@use './scss/abstracts/variables';
-@use './scss/abstracts/mixins';
-// [name=results]  {
-//     justify-content: center;
-//     text-align: center;
-//     // apply colors
-//     background-color: variables.$royal-blue-background;
-//     color: variables.$white;
-//     font-size: variables.$font-copy-size;
-//     font-weight: normal;
-// }
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
 
 .results{
     justify-content: center;

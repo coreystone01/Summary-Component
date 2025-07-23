@@ -1,5 +1,5 @@
-@use './scss/abstracts/variables';
-@use './scss/abstracts/mixins';
+@use '../abstracts/variables';
+@use '../abstracts/mixins';
 
 .wrapper    {
     flex-direction: column;
