@@ -2,80 +2,19 @@
 
 .results{
 
-    background-image: linear-gradient(variables.$royal-blue-background, variables.$slate-blue-background) !important;
-    color: variables.$white;
-    font-size: variables.$font-copy-size;
-
-    &__header{
-        color: variables.$lavender;
-        font-size: 1rem;
-    }
+    background-image: linear-gradient(variables.$slate-blue-background, variables.$royal-blue-background) !important;
+    color: variables.$lavender;
 
     &__score_display{
-        color: variables.$lavender;
-    background-image: linear-gradient(variables.$slate-blue-background, variables.$royal-blue-background) !important;
+        background-image: linear-gradient(variables.$slate-blue-background, variables.$royal-blue-background) !important;
     }
 
+    &__results__content {
+        font-size: 1rem;
+    }
 
 }
 
 #results_score {
     color: white;
 }
-
-
-// .results{
-//     justify-content: center;
-//     text-align: center;
-//     justify-items: center;
-//     grid-gap: 4vh;
-//     width: 30vw;
-//     height: 50vh;
-//     border-radius: 50px;
-//     padding: 15px 0px;
-//     // apply colors
-//     background-image: linear-gradient(variables.$royal-blue-background, variables.$slate-blue-background);
-//     color: variables.$white;
-//     font-size: variables.$font-copy-size;
-//     font-weight: normal;
-    
-    
-//     &__header{
-//         font-size: variables.$font-copy-size;
-//         font-weight: 500;
-
-//     }
-
-//     &__score_display{
-//     background-image: linear-gradient(variables.$slate-blue-background, variables.$royal-blue-background);
-//     border-radius: 50%;
-//     width: 15vw;
-//     height: 20vh;
-//     margin-top: -2vh;
-//     display: flex;
-//     justify-content: center;
-//     align-items: center;
-//     flex-direction: column;
-    
-        // > span {
-        //     font-size: 36px;
-        //     font-weight: 700;
-
-        //     @include mixins.layout('desktop') {
-        //         font-size: 8vh;
-        //       }
-        // };
-//     }
-
-//     &__tagline{
-//         font-size: 24px;
-//         font-weight: 800;
-//         margin-top: -2vh;
-    
-//     }
-
-//     &__content  {
-//         text-wrap: balance;
-//         margin-top: -4vh;    
-//     }
-// }

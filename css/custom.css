@@ -16,17 +16,14 @@
 }
 
 .results {
-  background-image: linear-gradient(hsl(241, 81%, 54%), hsl(252, 100%, 67%)) !important;
-  color: hsl(0, 0%, 100%);
-  font-size: 18px;
-}
-.results__header {
+  background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)) !important;
   color: hsl(241, 100%, 89%);
-  font-size: 1rem;
 }
 .results__score_display {
-  color: hsl(241, 100%, 89%);
   background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%)) !important;
+}
+.results__results__content {
+  font-size: 1rem;
 }
 
 #results_score {
