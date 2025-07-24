@@ -12,7 +12,8 @@ function updateSummaryValues(){
 
         // update the scoreValue HTML content
         // Make sure to use back ticks here, you spent a lot of time troubleshooting your JS output because of this.
-        container.textContent = `${scoreValue}`;
+        // container.textContent = `${scoreValue} / 100`;
+        container.innerHTML = `<span style="color: hsl(224, 30%, 27%);">${scoreValue}</span> / 100`;
     });
 }
 
