@@ -19,26 +19,28 @@
       </div>
     <!-- begin summary box -->
      <div class="summary d-flex flex-column mt-4 px-4">
-            <h2 class="summary__header fw-semibold">Summary</h2>
+            <h2 class="summary__header">Summary</h2>
       <!-- begin summary scores -->
-      <div class="d-inline-flex flex-wrap" name="reaction">
-        <img src="/assets/images/icon-reaction.svg"></img>
-        <p class="summary__container__tagline">
+      <div class="container d-flex flex-wrap align-content-center p-3" name="reaction">
+        <img class="mb-3 me-2" src="/assets/images/icon-reaction.svg"></img>
+        <p class="summary__container__tagline flex-grow-1">
           Reaction
         </p>
         <p class="summary__container__content">
           80 / 100
         </p>
       </div>
+      <!-- End Reaction -->
       <div class="container" name="memory">
         <img src="/assets/images/icon-memory.svg"></img>
-        <p class="summary__container__tagline">
+        <p class="summary__container__tagline flex-grow-1">
           Memory
         </p>
         <p class="summary__container__content">
           92 / 100
         </p>
       </div>
+      <!-- End Memory -->
       <div class="container" name="verbal">
         <img src="/assets/images/icon-verbal.svg"></img>
         <p class="summary__container__tagline">
@@ -48,6 +50,7 @@
           61 / 100
         </p>
       </div>
+    <!-- End Verbal -->
       <div class="container" name="visual">
         <img src="/assets/images/icon-visual.svg"></img>
         <p class="summary__container__tagline">
@@ -57,8 +60,7 @@
           72 / 100
         </p>
       </div>
-      <!-- <button onclick="updateSummaryValues()">Continue</button> -->
-      <!-- Removed the eventListener since it's being used in JS anyways -->
+      <!-- End Visual -->
       <button>Continue</button>
      </div>
   </div>

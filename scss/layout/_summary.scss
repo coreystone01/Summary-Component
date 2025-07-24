@@ -5,10 +5,17 @@
 .summary    {
 
     color: variables.$dark-blue;
+    font-size: 1.25rem;
+    font-weight: 600;
+
 
     &__header{
 
         font-size: 1rem;
+    }
+
+    &___container__content {
+        color: variables.$dark-blue;
     }
 }
 
@@ -16,32 +23,39 @@
     color: variables.$light-red;
     background-color: variables.$light-red-background;
 
-//    > svg    {
-//         // background: variables.$light-red;
-//     }
+    p:last-child {
+        // color: variables.$dark-blue;
+        color: variables.$lavender;
+    }
 }
+
 [name=memory] {
     color: variables.$orange-yellow;
     background-color: variables.$orange-yellow-background;
 
-    > svg    {
-        background: variables.$orange-yellow;
+    p:last-child {
+        // color: variables.$dark-blue;
+        color: variables.$lavender;
     }
 }
+
 [name=verbal] {
     color: variables.$teal;
     background-color: variables.$teal-background;
 
-    > svg    {
-        background: variables.$teal;
+    p:last-child {
+        // color: variables.$dark-blue;
+        color: variables.$lavender;
     }
 }
+
 [name=visual] {
     color: variables.$cobalt-blue;
     background-color: variables.$cobalt-blue-background;
 
-    > svg    {
-        background: variables.$cobalt-blue;
+    p:last-child {
+        // color: variables.$dark-blue;
+        color: variables.$lavender;
     }
 }
 
