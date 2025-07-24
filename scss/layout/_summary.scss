@@ -3,43 +3,86 @@
 
 
 .summary    {
-    grid-gap: 4vh;
-    width: 30vw;
-    height: 40vh;
-    border-radius: 5px;
-    padding: 15px 0px 15px 0px;
+
     color: variables.$dark-blue;
 
     &__header{
-        margin: 10px 0 -20px 0;
-        @include mixins.layout('desktop') {
-            flex-direction: row;
-            margin: 10px 40px -20px;
-          }
 
-    }
-
-    &__container__tagline{
-        flex-grow: 1;
-        margin: 0px 10px;
-    }
-
-    &__container__content{
-        text-align: end;
-        margin: 0px 10px 0 10px;
+        font-size: 1rem;
     }
 }
 
-[name=summary] > .container {
-    align-items: center;
-    display: flex;
-    border-radius: 5px;
-    margin: 0px 30px;
+[name=reaction] {
+    color: variables.$light-red;
+    background-color: variables.$light-red-background;
 
-    > svg   {
-        height: 11px;
-        width: 11px;
-        flex-grow: 0;
-        margin: 0px 10px;
+//    > svg    {
+//         // background: variables.$light-red;
+//     }
+}
+[name=memory] {
+    color: variables.$orange-yellow;
+    background-color: variables.$orange-yellow-background;
+
+    > svg    {
+        background: variables.$orange-yellow;
     }
 }
+[name=verbal] {
+    color: variables.$teal;
+    background-color: variables.$teal-background;
+
+    > svg    {
+        background: variables.$teal;
+    }
+}
+[name=visual] {
+    color: variables.$cobalt-blue;
+    background-color: variables.$cobalt-blue-background;
+
+    > svg    {
+        background: variables.$cobalt-blue;
+    }
+}
+
+// .summary    {
+//     grid-gap: 4vh;
+//     width: 30vw;
+//     height: 40vh;
+//     border-radius: 5px;
+//     padding: 15px 0px 15px 0px;
+//     color: variables.$dark-blue;
+
+//     &__header{
+//         margin: 10px 0 -20px 0;
+//         @include mixins.layout('desktop') {
+//             flex-direction: row;
+//             margin: 10px 40px -20px;
+//           }
+
+//     }
+
+//     &__container__tagline{
+//         flex-grow: 1;
+//         margin: 0px 10px;
+//     }
+
+//     &__container__content{
+//         text-align: end;
+//         margin: 0px 10px 0 10px;
+//     }
+// }
+
+// [name=summary] > .container {
+//     align-items: center;
+//     display: flex;
+//     border-radius: 5px;
+//     margin: 0px 30px;
+
+//     > svg   {
+//         height: 11px;
+//         width: 11px;
+//         flex-grow: 0;
+//         margin: 0px 10px;
+//     }
+// }
