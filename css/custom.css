@@ -75,15 +75,6 @@
   color: white;
 }
 
-button {
-  justify-self: center;
-  border-radius: 20px;
-  width: 22vw;
-  height: 4vw;
-  color: hsl(0, 0%, 100%);
-  background: hsl(224, 30%, 27%);
-}
-
 /*!
  * Bootstrap  v5.3.7 (https://getbootstrap.com/)
  * Copyright 2011-2025 The Bootstrap Authors
