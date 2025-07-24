@@ -9,7 +9,7 @@
 </head>
 <body>
   <!-- begin results box -->
-  <div class="d-flex flex-column justify-content-center">
+  <div class="container d-flex flex-column justify-content-center">
       <div class="results container rounded-bottom-4 d-flex flex-column align-items-center text-center">
         <h4 class="results__header my-3">Your Result</h4>
         <!-- I'm not going to give the span a name or class, I'll use CSS to select it directly -->
@@ -19,9 +19,9 @@
       </div>
     <!-- begin summary box -->
      <div class="summary d-flex flex-column mt-4 px-4">
-            <h2 class="summary__header">Summary</h2>
+            <h2 class="summary__header fw-bold my-4">Summary</h2>
       <!-- begin summary scores -->
-      <div class="container d-flex flex-wrap align-content-center p-3" name="reaction">
+      <div class="container d-flex flex-wrap align-content-center p-3 my-2 rounded-4" name="reaction">
         <img class="mb-3 me-2" src="/assets/images/icon-reaction.svg"></img>
         <p class="summary__container__tagline flex-grow-1">
           Reaction
@@ -31,8 +31,8 @@
         </p>
       </div>
       <!-- End Reaction -->
-      <div class="container" name="memory">
-        <img src="/assets/images/icon-memory.svg"></img>
+      <div class="container d-flex flex-wrap align-content-center p-3 my-2 rounded-4" name="memory">
+        <img class="mb-3 me-2" src="/assets/images/icon-memory.svg"></img>
         <p class="summary__container__tagline flex-grow-1">
           Memory
         </p>
@@ -41,9 +41,9 @@
         </p>
       </div>
       <!-- End Memory -->
-      <div class="container" name="verbal">
-        <img src="/assets/images/icon-verbal.svg"></img>
-        <p class="summary__container__tagline">
+      <div class="container d-flex flex-wrap align-content-center p-3 my-2 rounded-4" name="verbal">
+        <img class="mb-3 me-2" src="/assets/images/icon-verbal.svg"></img>
+        <p class="summary__container__tagline flex-grow-1">
           Verbal
         </p>
         <p class="summary__container__content">
@@ -51,9 +51,9 @@
         </p>
       </div>
     <!-- End Verbal -->
-      <div class="container" name="visual">
-        <img src="/assets/images/icon-visual.svg"></img>
-        <p class="summary__container__tagline">
+      <div class="container d-flex flex-wrap align-content-center p-3 my-2 rounded-4" name="visual">
+        <img class="mb-3 me-2" src="/assets/images/icon-visual.svg"></img>
+        <p class="summary__container__tagline flex-grow-1">
           Visual
         </p>
         <p class="summary__container__content">
@@ -61,7 +61,7 @@
         </p>
       </div>
       <!-- End Visual -->
-      <button>Continue</button>
+      <button class="btn d-inline-flex align-items-center justify-content-center p-4 mt-3 rounded-5 w-100" id="continue">Continue</button>
      </div>
   </div>
 </body>
